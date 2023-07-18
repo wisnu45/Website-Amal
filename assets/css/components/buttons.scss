@@ -1,0 +1,142 @@
+
+//Homepage
+.donateButtonStyleHP {
+    height: 41px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-image: $buttonBG;
+    color: $white;
+    margin: 5% 0;
+    font-weight: 600;
+}
+
+.donateButtonStyleHP:hover {
+    color: $white;
+    background-image: $buttonHoverBG;
+}
+
+.readBtn {
+    background-image: $buttonBG;
+    color: $white;
+    border: none;
+    font-weight: 600;
+}
+
+.readBtn:hover {
+    background-image: $buttonHoverBG;
+}
+
+//Donate Page
+.charity-collapse {
+    width: 100%;
+    font-size: 15px;
+    background-color: $lightBlue;
+    color: $white;
+    padding: 18px;
+    border: none;
+    transition: 0.2s ease-in-out;
+
+}
+
+.charity-collapse:hover {
+    background-color: $blue; 
+}
+
+.donateButtonStyle {
+    background-image: $buttonBG;
+    margin-bottom: 10px;
+    color: $white;
+    transition: 0.2s ease-in-out;
+}
+
+.donateButtonStyle:hover {
+    background-image: $buttonHoverBG;
+    color: $white;
+}
+
+
+// Calculator
+#calculator-wrapper {
+    position: fixed;
+    z-index: 999;
+    width: 20%;
+    left: 40%;
+    bottom: 70%;
+}
+
+.calculatorSection {
+    position: absolute;
+}
+
+#calculatorSectionHeader {
+    z-index: 10;
+}
+
+.calcTextBG {
+    cursor: move;
+    padding: 0;
+    width: 91%;
+    background-color: lightblue;
+    border: 1px solid blue;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.screen {
+    width: 100%;
+    font-size: 1.5rem;
+    background: rgb(41, 41, 56);
+    color: $white;
+    border: none;
+}
+
+.calc-no-padding {
+    padding: 0;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    transition: all 0.5s linear;
+}
+
+.btn-equal {
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.calcBtnStyle {
+    flex: 0 0 25%;
+    border: 1px solid black;
+    padding: 2px 0;
+    transition: all 0.5s ease-in-out;
+}
+
+.calcBtnStyle:hover {
+    background: blue;
+}
+
+.calcBtnYellow {
+    background: lightYellow;
+}
+
+.calcBtnGrey {
+    background: grey;
+}
+
+.calcBtnGreen {
+    background: green;
+}
+
+.calcBtnRed {
+    background: red;
+} //Contact Page
+#submitBtn {
+    background-image: linear-gradient(#17a2b8, #01557b);
+    color: $white;
+    position: absolute;
+    float:right;
+}

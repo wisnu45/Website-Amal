@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap');
+
+
+#map {
+    height: 100vh;
+    width: 100%;
+    top: 40px;
+    margin-top: -40px;
+    margin-bottom: 40px;
+}
+
+.mapInstruction {
+    padding-top: 25%;
+    padding-bottom: 10%;
+    color: $black;
+}

@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.red-count {
+    color: red;
+    font-weight: 600;
+}
+
+.blue-seconds {
+    color: blue;
+}
+
+.top-section {
+    padding: 1em 0.5em 0;
+}
+
+.top-section-counter-BG {
+    background-color:  $counterBG;
+    color: $white;
+    padding: 10px 0;
+    position: relative;
+}
+
+.section {
+    height: auto;
+    color: $black;
+}
+
+.top-section {
+    margin: 15px 0;
+    padding: 1em 0;
+    color: $black;
+    height: auto;
+}
+
+.text {
+    margin-top: 3%;
+    padding-right: 10px;
+}
+
+.MotherTeresaQuote {
+    text-transform: uppercase;
+    color: $black;
+    font-style: italic;
+}
+
+.more {
+    display: none;
+}

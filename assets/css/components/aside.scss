@@ -1,0 +1,64 @@
+/* Fixed Icon */
+
+.social-media-button {
+  position: fixed;
+  top: 50%;
+  padding: 0 !important;
+  left: -35px;
+  width: 50%;
+  transform: translateY(-50%);
+  list-style-type: none;
+}
+
+/* Social Media Icons*/
+
+.sideCalculator:hover {
+  background-color: $sideCalculatorHover;
+}
+
+.facebook:hover {
+  background-color: $facebookHover;
+}
+
+.twitter:hover {
+  background-color: $twitterHover;
+}
+
+.instagram:hover {
+  background-color: $instagramHover;
+}
+
+.youtube:hover {
+  background-color: $youtubeHover;
+}
+
+.facebook {
+  background: $facebookBGColor;
+  color: $white;
+}
+
+.twitter {
+  background: $twitterBGColor;
+  color: $white;
+}
+
+.instagram {
+  background: $instagramBGColor;
+  color: $white;
+}
+
+.youtube {
+  background: $youtubeBGColor;
+  color: $white;
+}
+
+
+.sideCalculator {
+  background-color: $sideCalculatorColor;
+  color: white;
+}
+
+.asideCalcText {
+    font-size: 12px;
+    vertical-align: middle;
+}

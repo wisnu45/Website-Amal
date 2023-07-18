@@ -1,0 +1,159 @@
+/*Homepage*/
+
+%background {
+    position: relative;
+    background: {
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.hpimg-1 {
+    @extend %background,
+}
+
+.hpimg-2 {
+    @extend %background,
+}
+
+.hpimg-3 {
+    @extend %background,
+}
+
+.hpimg-4 {
+    @extend %background,
+}
+
+.hpimg-5 {
+    @extend %background,
+}
+
+/*Charity Page*/
+
+%charityCarouselPics {
+    width: 100%;
+    height: 74vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.charityAsiaPic1 {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/India-Poverty.jpg');
+
+}
+
+.charityAfricaPic {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/Children-Uganda.jpg');
+}
+
+.charityAsiaPic2 {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/Jakarta-Slum.jpeg');
+}
+
+.charityEuropePic1 {
+    @extend %charityCarouselPics;
+    background-position: bottom;
+    background-image: url('../images/Charity-Images/Refugee-Child.jpg');
+
+}
+
+.charitySAPic {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/Haiti-Poverty.jpeg');
+
+}
+
+.charityEuropePic2 {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/EuropeRefugees.jpg');
+
+}
+
+.charityRedCrossPic {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/American-Red-Cross.jpg');
+}
+
+.disasterReliefRedCrossPic {
+    @extend %charityCarouselPics;
+    background-image: url('../images/Charity-Images/Disaster-Relief-Red-Cross.jpg');
+}
+
+
+/*Charity Page Carousel Arrows*/
+
+%carouselArrows {
+    height: 100px;
+    width: 100px;
+    outline: black;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+.carousel-control-prev-icon {
+    @extend %carouselArrows;
+}
+
+.carousel-control-next-icon {
+    @extend %carouselArrows;
+}
+
+/*Aside Styles*/
+
+%asideStyles {
+    display: block;
+    width: 83px;
+    padding: 10px 5px 10px;
+    transition: all 0.3s ease;
+    color: $white;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-size: 23px;
+    text-align: right;
+    margin: 20px 0;
+}
+
+.social-media-button a {
+    @extend %asideStyles
+}
+
+.social-media-button div {
+    @extend %asideStyles
+}
+
+/*Footer Social Media Icons*/
+
+%footericons {
+    width: 40px;
+    height: 40px;
+    list-style: none;
+    line-height: 40px;
+    font-size: 20px;
+    border: 1px solid blue;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.facebook-footer {
+    @extend %footericons
+}
+
+.twitter-footer {
+    @extend %footericons
+}
+
+.youtube-footer {
+    @extend %footericons
+}
+
+.instagram-footer {
+    @extend %footericons
+}

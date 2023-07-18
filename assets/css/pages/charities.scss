@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,800&display=swap');
+
+
+#bodyColor {
+    background-color: $BodyBlue;
+}
+
+.charitiesH1 {
+    padding: 28px 0;
+    color: $black;
+}
+
+#AsiaAfricaSection {
+    padding: 5% 0;
+}
+
+#SAEuropeCharities {
+    padding: 10% 0;
+}
+
+#NAAusCharities {
+    padding: 12% 0;
+}
+
+.charity-text {
+    padding: 0 18px;
+    white-space: pre-line;
+    max-height: 0;
+    overflow: scroll;
+    margin-bottom: 10px;
+    transition: max-height 0.2s ease-in-out;
+    background-color: $white;
+}
+
+// I learned how to use the CSS + and - symbols from the following W3School page: https://www.w3schools.com/howto/howto_js_accordion.asp
+.charity-collapse:after {
+    content: '\02795';
+    float: right;
+    margin-left: 5px;
+}
+
+// I learned how to use the CSS + and - symbols from the following W3School page: https://www.w3schools.com/howto/howto_js_accordion.asp
+.symbol:after {
+    content: "\2796";
+}
+
+.carousel-inner {
+    padding-top: 55px;
+    margin-bottom: 10px;
+}
+
+.donatePageTextColor {
+    color: $black;
+}
+

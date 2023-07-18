@@ -1,0 +1,249 @@
+$phone-width: 576px;
+$tablet-width: 768px;
+$desktop-width: 992px;
+$large-desktop-width: 1200px;
+
+@mixin phone {
+    @media (min-width: $phone-width) {
+        //Homepage
+        .textHP1 {
+            margin-left: 36px;
+            margin-top: 36px;
+            padding-left: 10px;
+        }
+        .section{
+            margin-left: 44px;
+        }
+        .donateButtonStyleHP {
+            height: 49px;
+        }
+
+        //Map Page
+        .mapInstruction {
+            padding-top: 17%
+        }
+
+        //Statistics Texts
+        .chartText {
+            margin: 0 10%;
+            text-align: center;
+        }
+        .chartStyling {
+            background-color: $white;
+            margin: 70px 0px 70px 0px;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .heading-margin {
+            margin-left: 230px;
+        }
+        .chart-margin{
+            margin-left: 230px;
+        }
+        
+        //Aside Social Media Buttons
+        .social-media-button a, .social-media-button div {
+            transform: translateX(-15px);
+        }
+        .social-media-button {
+            width: 5.5%;
+        } 
+        
+        //Footers
+        #footer {
+            height: 110px
+        } 
+        
+        // Contact Page
+        .text-box-length {
+            width: 300px;
+            margin-left: 5px;
+        }
+    }
+}
+
+@include phone;
+
+
+@mixin tablet {
+    @media (min-width: $tablet-width) {
+        h1 {
+            font-size: 50px;
+        }
+        h2 {
+            font-size: 35px;
+        }
+        h3 {
+            font-size: 25px;
+        }
+
+        //Homepage
+        .hpimg-1 {
+            padding: 164px 0;
+        }
+        .hpimg-2 {
+            height: 975px;
+        }
+        .hpimg-3 {
+            height: 975px;
+        }
+        .hpimg-4 {
+            height: 975px;
+        }
+        .text {
+            padding-right: 10px;
+            position: relative;
+        }
+        .MotherTeresaQuote {
+            font-size: 26px;
+            position: relative;
+        }
+
+        //Statistics Page
+        .graph-color {
+            color: $black;
+        }
+        #statsBox {
+            height: 500px;
+        }
+        .heading-margin {
+            margin-left: 0;
+        }
+        .chart-margin{
+            margin-left: 0px;
+        }
+        .row-flex {
+            margin-bottom: 0; 
+        }
+
+        // Contact Page
+        .text-box-length {
+            width: 400px;
+        }
+        .contactMeBulletPoints {
+            height: 300px;
+            top: 3em;
+        }
+        .contact-list {
+            list-style: none;
+        }
+
+        //Aside
+        .social-media-button a, .social-media-button div {
+            transform: translateX(-90px);
+        }
+        .social-media-button {
+            padding-left: 40px !important;
+            left: 0;
+        }
+    }
+}
+
+@include tablet;
+
+@mixin desktop {
+    @media(min-width: $desktop-width) {
+        p {
+            font-size: 18px;
+        }
+
+        // Homepage
+        .hpimg-1 {
+            padding: 100px 0 350px 0;
+        }
+
+        //Map Page
+        .mapInstruction {
+            padding-top: 13%
+        }
+        .stats-banner-text{
+            font-size: 26px;
+        }
+
+        //Statistics Page
+        div.dc-chart {
+            float: none;
+            text-align: center;
+        }
+        //Aside buttons
+        .sideCalculator:hover {
+            background-color: $sideCalculatorHover;
+            transform: translateX(-20px);
+        }
+
+        .facebook:hover {
+            background-color: $facebookHover;
+            transform: translateX(-20px);
+        }
+
+        .twitter:hover {
+            background-color: $twitterHover;
+            transform: translateX(-20px);
+        }
+
+        .instagram:hover {
+            background-color: $instagramHover;
+            transform: translateX(-20px);
+        }
+
+        .youtube:hover {
+            background-color: $youtubeHover;
+            transform: translateX(-20px);
+        } 
+    }
+}
+
+@include desktop;
+
+@mixin large-desktop {
+    @media (min-width: $large-desktop-width) {
+
+        //Homepage
+        .top-section-counter-BG {
+            padding-right: 29px;
+        }
+        .hpimg-1 {
+            padding: 200px 0;
+        }
+        .hpimg-2 {
+            width: 100%;
+            height: 1000px;
+            top: 40px;
+        }
+        .hpimg-3 {
+            width: 100%;
+            height: 1000px;
+            top: 40px;
+        }
+        .hpimg-4 {
+            height: 1000px;
+        }
+        .textHP1 {
+            padding-left: 40px;
+        }
+        .section {
+            margin-left: 40px;
+        }
+        
+        //Aside Social Media Buttons
+        .social-media-button a, .social-media-button div {
+            transform: translateX(-53px);
+        }
+        .social-media-button {
+            left: -35px;
+        }//Statistics Page
+        #statsBox {
+            height: 600px;
+        } 
+        .stats-banner-text {
+            font-size: 30px;
+        }// Contact Page
+        .text-box-length {
+            width: 780px;
+        }
+    }
+}
+
+@include large-desktop;
